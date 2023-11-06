@@ -17,7 +17,8 @@ if __name__ == '__main__':
     context = engine.rootContext()
     context.setContextProperty("symbolicLinkManager", symbolicLinkManager)
 
-    engine.load(os.fspath(Path(__file__).resolve().parent / "main.qml"))
+    # engine.load(os.fspath(Path(__file__).resolve().parent / "main.qml"))
+    engine.load(":/qml/main.qml")
     if not engine.rootObjects():
         sys.exit(-1)
 

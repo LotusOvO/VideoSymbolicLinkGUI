@@ -1,8 +1,8 @@
 import QtQuick
 import QtQuick.Dialogs
 
-//import "qrc:/qml/"
-import "resource/qml/"
+import "qrc:/qml/"
+// import "resource/qml/"
 
 Window {
     width: 500

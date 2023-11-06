@@ -7,6 +7,8 @@
 ```python
 pip install PySide6
 
+python pyside6-rcc -o resource/rc_resources.py resource/resources.qrc
+
 python ./main.py
 ```
 
