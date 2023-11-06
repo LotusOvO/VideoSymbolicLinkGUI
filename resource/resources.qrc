@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/img">
+        <file alias="folder.png">img/folder.png</file>
+    </qresource>
+    <qresource prefix="/qml">
+        <file alias="FolderSelector.qml">qml/FolderSelector.qml</file>
+        <file alias="OptionsView.qml">qml/OptionsView.qml</file>
+        <file alias="MessageWindow.qml">qml/MessageWindow.qml</file>
+    </qresource>
+</RCC>
